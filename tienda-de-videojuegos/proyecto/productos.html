@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tienda de videojuegos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Videojuegos</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#resenias">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section id="inicio">
+        <h2>Bienvenido a nuestra tienda de videojuegos</h2>
+        <p>Encuentra los mejores videojuegos para todas las plataformas. ¡Explora nuestra colección!</p>
+        </section>
+        <section id="productos">
+        <h2>Nuestros productos</h2>
+        <p>Descubre nuestra selección de los mejores videojuegos.</p>
+        <div class="cards-de-productos">
+            <div class="card">
+                <div class="info-juego">
+                    <h3>God Of War 3 remasterizado</h3>
+                    <img src="./img/god of war 3.png" alt="producto 1">
+                    <p>$40.000</p>
+                    <p>Juego sobre mitologia griega</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bPi7ORsTp-I" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <div class="info-juego">
+                    <h3>Red Dead Redemption 2</h3>
+                    <img src="./img/red dead redemption 2.png" alt="producto 2">
+                    <p>$65.000</p>
+                    <p>Juego del viejo oeste</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IjZwoOwxqtM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <div class="info-juego">
+                    <h3>GTA V</h3>
+                    <img src="./img/gta 5.png" alt="producto 3">
+                    <p>$50.000</p>
+                    <p>Juego de robos y conducción</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QkkoHAzjnUs" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <div class="info-juego">
+                    <h3>The Last Of Us 2</h3>
+                    <img src="./img/TLOU 2.png" width="280" height="210" alt="producto 4">
+                    <p>$70.000</p>
+                    <p>Juego de supervivencia/zombies</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VSLSvEjDm5s" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="card">
+                <div class="info-juego">
+                    <h3>Marvel's Spider-Man</h3>
+                    <img src="./img/Marvel's Spider-Man.png" width="280" height="170" alt="producto 3">
+                    <p>$45.000</p>
+                    <p>Juego de accion y superheroes</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tZ6KW7Fo7Nc" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        </section>
+        <section id="resenias">
+        <h2>Reseñas de los clientes</h2>
+        <p>Lee las reseñas de nuestros clientes satisfechos.</p>
+        <div class="grid-de-resenias">
+            <div class="resenia">
+                <h3>Usuario1</h3>
+                <p>¡Me encantó este juego! La historia es increíble y los gráficos son impresionantes.</p>
+            </div>
+            <div class="resenia">
+                <h3>Usuario2</h3>
+                <p>Un juego divertido y adictivo. Lo recomiendo a todos los fanáticos de los videojuegos.</p>
+            </div>
+            <div class="resenia">
+                <h3>Usuario3</h3>
+                <p>Excelente calidad de juego y una gran cantidad de contenido. ¡Definitivamente vale la pena!</p>
+            </div>
+        </div>
+        </section>
+        <section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <form action="https://formspree.io/f/mdapdwdv" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" placeholder="Tu correo electronico" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" placeholder="Escribi tu mensaje" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tienda de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
