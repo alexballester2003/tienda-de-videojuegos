@@ -1,92 +1,139 @@
 *{
     margin: 0;
+
     padding: 0;
+
     box-sizing: border-box;
 }
 
 body{
     font-family: poppins, sans-serif;
+
     background-color: white;
 }
 
 header{
     background-color: #333;
+
     color: #fff;
+    
     padding: 20px;
 }
 
 header h1{
     font-size: 24px;
+
     text-align: center;
 }
 
 nav{
     list-style: none;
+
     padding: 10px;
-    display: flex;
+
     gap: 20px;
+
     margin-top: 15px;
 }
 
 nav a {
     text-decoration: none;
+
     color: rgb(33, 45, 184);
+
     font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
 }
 
 #productos {
     padding: 40px 20px;
+
     text-align: center;}
     
 .cards-de-productos{
     display: flex;
+
     flex-direction: column;
+
     gap: 30px;
 }
     
 .card {
+    width: 280px;
+
+    min-height: 470px;
+
+    background:#f5f5f5;
+
+    text-align: center;
+
     display: flex;
+
+    flex-direction: column;
+
     align-items: center;
-    justify-content: space-around;
+
     gap: 15px;
-    background-color: #f4f4f4;
+
     padding: 20px;
+
     border-radius: 10px;
+
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .info-juego {
     width: 320px;
+
     text-align: center;
 }
 
 .info-juego img {
     width: 300px;
+
     height: auto;
+
     border-radius: 8px;
 }
 
 .card iframe {
     border: none;
+
     border-radius: 8px;
 }
 
 #resenias{
     padding: 40px 20px;
+
     text-align: center;
 }
 
 .grid-de-resenias{
     display: grid;
+
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
     gap: 20px;
+
     margin-top: 20px;
 }
 
-.resenias{
+.resenia{
     background-color: #f4f4f4;
+
     padding: 20px;
+
     border-radius: 8px;
+
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -96,32 +143,47 @@ nav a {
 
 form {
     display: flex;
+
     flex-direction: column;
+
     gap: 15px;
+
     max-width: 400px;
+
     margin: 0 auto;
 }
 
 form label {
     text-align: left;
+
     width: 100%;
+
     font-weight: bold;
 }
 
 input, textarea {
     width: 100%;
+
     padding: 10px;
+
     border: 1px solid #ccc;
+
     border-radius: 4px;
+
     box-sizing: border-box;
 }
 
 button {
     padding: 10px;
+
     background-color: rgb(33, 45, 184);
+
     color: white;
+
     border: none;
+
     border-radius: 4px;
+
     cursor: pointer;
 }
 
@@ -131,8 +193,11 @@ button:hover {
 
 footer{
     background-color: #333;
+
     color: #fff;
+
     padding: 20px;
+
     text-align: center;
 }
 
@@ -140,28 +205,94 @@ footer{
 
     nav ul {
         flex-direction: column;
+
         align-items: center;
+
         gap: 10px;
     }
 
     .card {
         flex-direction: column;
+
         text-align: center;
     }
 
     iframe {
         width: 100%;
+
         max-width: 100%;
+
         height: 250px;
     }
 
     .info-juego img{
         width: 100%;
+
         max-width: 300px;
+
         height: auto;
     }
 
     form {
         width: 100%;
     }
+}
+
+#cards-de-productos{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.card img{
+
+    width:220px;
+
+    height: 300px;;
+
+    border-radius:8px;
+
+    object-fit:contain;
+
+}
+
+#contador-carrito{
+
+    font-size:22px;
+
+    margin:20px;
+
+    text-align:center;
+
+}
+
+#carrito{
+
+    padding:40px;
+
+    background:#ececec;
+
+}
+
+.agregar{
+
+    margin-top:10px;
+
+}
+
+#lista-carrito div{
+    background:white;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border-radius:8px;
+
 }
