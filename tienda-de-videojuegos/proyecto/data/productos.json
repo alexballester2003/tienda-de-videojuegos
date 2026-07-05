@@ -2,35 +2,35 @@
  {
     "id": 1,
     "nombre": "God Of War 3 remasterizado",
-    "img": "../img/god of war 3.png",
+    "img": "./img/god of war 3.png",
     "precio": 40000,
     "descripcion": "Juego sobre mitologia griega"
  },
  {
     "id": 2,
     "nombre": "Red Dead Redemption 2",
-    "img": "../img/red dead redemption 2.png",
+    "img": " ./img/red dead redemption 2.png",
     "precio": 65000,
     "descripcion": "Juego del viejo oeste"
  },
  {
     "id": 3,
     "nombre": "GTA V",
-    "img": "../img/gta 5.png",
+    "img": "./img/gta 5.png",
     "precio": 50000,
     "descripcion": "Juego de robos y conducción"
  },
  {
     "id": 4,
     "nombre": "The Last Of Us 2",
-    "img": "../img/TLOU 2.png",
+    "img": "./img/TLOU 2.png",
     "precio": 70000,
     "descripcion": "Juego de supervivencia/zombies"
  },
  {
     "id": 5,
     "nombre": "Marvel's Spider-Man",
-    "img": "../img/Marvel's Spider-Man.png",
+    "img": "./img/Marvel's Spider-Man.png",
     "precio": 45000,
     "descripcion": "Juego de accion y superheroes"
  }

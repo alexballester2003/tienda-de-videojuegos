@@ -128,7 +128,7 @@ function eliminarProducto(id){
 
 // Cargar productos
 
-fetch("../data/productos.json")
+fetch("./data/productos.json")
 
 .then(respuesta=>respuesta.json())
 
