@@ -415,3 +415,25 @@ section h2{
 
     color: #1d4ed8;
 }
+
+.logo {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
