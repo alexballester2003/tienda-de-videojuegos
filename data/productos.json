@@ -33,13 +33,5 @@
     "img": "./img/Marvel's Spider-Man.png",
     "precio": 45000,
     "descripcion": "Juego de accion y superheroes"
- },
- {
-    "id": 6,
-    "nombre": "Ovia simulator",
-    "img": "./img/videojuego ovia.jpeg",
-    "precio": 60000,
-    "descripcion": "para nada me estan obligando a hacer esto"
  }
-
 ]
